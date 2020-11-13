@@ -10,7 +10,7 @@ When updating the validation rules,
 * checkout `v7.0.2-h`, where `h` is an incremental alphabetic version. 
 * Open `lib/libphonenumber/build/utils.js` file.
 * Find the country code you will be modifying and replace its configuration with the correct one.
-* Commit your changes
+* Commit your changes.
 * run `git tag v7.0.2-<next-version>`
 * update this readme to change the version (version you just tagged) on checkout step.
 * push
