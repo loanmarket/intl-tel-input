@@ -15,7 +15,7 @@ When updating the validation rules,
 - push tag `git push origin v7.0.2-<next-version>`
 - you can now use the tag in other projects, just update the tag version `"intl-tel-input": "github:loanmarket/intl-tel-input#v7.0.2-<next-version>"`
 - checkout to a branch (e.g `git checkout -b fix-gh-validation`)
-- update this readme to change the version (version you just tagged) then push to create a PR
+- update this readme to change the version (version you just tagged) then push to create a PR to develop branch
 
 ---
 
