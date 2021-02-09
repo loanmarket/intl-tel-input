@@ -43,4 +43,4 @@ When updating a country's configuration using the latest build from the library:
 
 - This is because the library's parser has changed since the forking of the version we are using
 - Thus the need to understand their difference to safely copy the latest patterns to our version
-- Please also note that their parser have changed since this writing so this might no longer be applicable
+- Please also note that their parser may have changed since this writing so this might no longer be applicable
