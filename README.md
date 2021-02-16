@@ -6,7 +6,7 @@ However, there was an update on NZ mobile number validation rules that is not av
 
 When updating the validation rules,
 
-- checkout `v7.0.2-h`, where `h` is an incremental alphabetic version.
+- checkout `v7.0.2-i`, where `i` is an incremental alphabetic version.
 - Open `lib/libphonenumber/build/utils.js` file.
 - Find the country code you will be modifying and replace its configuration with the correct one.
 - Commit your changes
@@ -44,3 +44,4 @@ When updating a country's configuration using the latest build from the library:
 - This is because the library's parser has changed since the forking of the version we are using
 - Thus the need to understand their difference to safely copy the latest patterns to our version
 - Please also note that their parser may have changed since this writing so this might no longer be applicable
+- Feel free to update this readme and add tips to make fixing easier for other devs
